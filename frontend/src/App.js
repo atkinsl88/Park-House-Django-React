@@ -15,7 +15,10 @@ import Assessingneed from './components/domiciliarycare/subpages/assessing-the-n
 import Clientcare from './components/domiciliarycare/subpages/client-care-plan/Clientcare'
 import Reassesingtheneed from './components/domiciliarycare/subpages/reassessing-the-need/Reassessingneed'
 import Daycare from './components/daycare/Daycare'
-
+import Teamcarehome from './components/meet-the-team/care/Teamcarehome'
+import Teamdomiciliarycare from './components/meet-the-team/domiciliary/Teamdomiciliarycare'
+import Testcarehome from './components/testimonials/care/Testcarehome'
+import Testdomiciliarycare from './components/testimonials/domicilary/Testdomiciliarycare'
 
 const App = () => {
   return (
@@ -34,6 +37,10 @@ const App = () => {
         <Route exact path="/domiciliarycare/client-care-plan" component={Clientcare} />
         <Route exact path="/domiciliarycare/reassessing-the-need" component={Reassesingtheneed} />
         <Route exact path="/daycare" component={Daycare} />
+        <Route exact path="/meet-the-team/carehome" component={Teamcarehome} />
+        <Route exact path="/meet-the-team/domiciliarycare" component={Teamdomiciliarycare} />
+        <Route exact path="/testimonials/carehome" component={Testcarehome} />
+        <Route exact path="/testimonials/domicilary" component={Testdomiciliarycare} />
       </Switch>
       <Footer />
     </BrowserRouter>
