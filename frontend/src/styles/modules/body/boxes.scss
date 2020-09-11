@@ -1,0 +1,25 @@
+.box-container {
+  border: #E0E0E0 1px solid;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.boxi {
+  width: 50%;
+  max-width: 558px;
+  background-color: #FBFBFB;
+  border: #E0E0E0 1px solid;
+  text-align: center;
+  padding: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 2px #888888;
+}

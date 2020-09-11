@@ -1,0 +1,100 @@
+/* Import - Bulma */
+@import '~bulma/bulma.sass';
+
+/* Import - Navigation & Footer */
+@import './modules/navigation/navigation.scss';
+@import './modules/navigation/subnav.scss';
+@import './modules/footer/footer.scss';
+
+/* Import - Hero */
+@import './modules/hero/Herohome.scss';
+@import './modules/hero/Herosub.scss';
+
+/* Import - Body */
+@import './modules/body/intro12col.scss';
+@import './modules/body/textimg.scss';
+@import './modules/body/introimgtext.scss';
+@import './modules/body/Centrebutton.scss';
+@import './modules/body/introalternate.scss';
+@import './modules/body/boxes.scss';
+@import './modules/body/widget.scss';
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Nunito&display=swap);
+
+/* Colors */
+$primary: #97A14B;
+$secondary: #FBFBFB;
+$border: #E0E0E0;
+$white: #FFFFFF;
+
+/* Misc */
+* {
+  margin: 0px;
+}
+
+/* Fonts */
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 36pt;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 20pt;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 16pt;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 14pt;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12pt;
+  margin: 0px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12pt;
+  margin: 0px;
+  line-height: 30px;
+  margin-bottom: 3px;
+}
+
+/* Buttons */
+
+button {
+  width: 140px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+button p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12pt;
+}
