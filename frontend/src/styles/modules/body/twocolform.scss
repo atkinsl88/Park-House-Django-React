@@ -1,0 +1,50 @@
+.twocolform-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.twocolform-container-intro {
+  padding-top: 40px;
+  padding-left: 40px
+}
+
+.twocolform-container-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.twocolform-container-box-text {
+  width: 50%;
+  padding-right: 40px;
+  flex: 1 1 500px
+}
+
+.twocolform-container-box-form {
+  border: #E0E0E0 1px solid;
+  height: 750px;
+  width: 50%;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  flex: 1 1 400px;
+  box-shadow: 2px 2px #888888;
+}
+
+form {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12pt;
+  margin: 0px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.radio-circle {
+  margin-right: 10px;
+}

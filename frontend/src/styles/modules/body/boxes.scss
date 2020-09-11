@@ -9,12 +9,13 @@
 .boxes {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
 .boxi {
   width: 50%;
-  max-width: 558px;
+  min-width: 558px;
   background-color: #FBFBFB;
   border: #E0E0E0 1px solid;
   text-align: center;

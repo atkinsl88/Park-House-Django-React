@@ -19,6 +19,7 @@ import Teamcarehome from './components/meet-the-team/care/Teamcarehome'
 import Teamdomiciliarycare from './components/meet-the-team/domiciliary/Teamdomiciliarycare'
 import Testcarehome from './components/testimonials/care/Testcarehome'
 import Testdomiciliarycare from './components/testimonials/domicilary/Testdomiciliarycare'
+import Contact from './components/contact/Contact'
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
         <Route exact path="/meet-the-team/domiciliarycare" component={Teamdomiciliarycare} />
         <Route exact path="/testimonials/carehome" component={Testcarehome} />
         <Route exact path="/testimonials/domicilary" component={Testdomiciliarycare} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </BrowserRouter>
