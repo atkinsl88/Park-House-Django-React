@@ -26,6 +26,7 @@ import Working from './components/working-for-us/Working'
 import Privacy from './components/privacy/Privacy'
 import Covid from './components/covid/Covid'
 import Gallery from './components/gallery/Gallery'
+import Form from './components/form/Form'
 
 const App = () => {
   
@@ -56,6 +57,7 @@ const App = () => {
         <Route exact path="/working-for-us" component={Working} />
         <Route exact path="/privacy-policy" component={Privacy} />
         <Route exact path="/covid-19" component={Covid} />
+        <Route exact path="/form" component={Form} />
       </Switch>
       <Footer />
     </BrowserRouter>
