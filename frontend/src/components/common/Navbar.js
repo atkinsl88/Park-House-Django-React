@@ -70,7 +70,7 @@ class Navbar extends React.Component {
                 </div>
               </div>
 
-              <Link to="/contact" className="navbar-item">Contact Us</Link>
+              <Link to="/contact" className="navbar-item navbar-end">Contact Us</Link>
             </div>
 
       </nav>

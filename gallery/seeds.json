@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "img_url": "https://i.imgur.com/P5WmhOD.jpg",
+    "img_alt_desc": "image test 1"
+  },
+  {
+    "id": 2,
+    "img_url": "https://i.imgur.com/mqx6eaR.jpg",
+    "img_alt_desc": "Image test 2"
+  }
+]

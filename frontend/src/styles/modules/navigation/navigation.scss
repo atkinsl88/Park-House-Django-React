@@ -1,6 +1,5 @@
 .navbar {
   height: 120px;
-  margin-right: 40px;
 }
 
 .navbar img {
@@ -9,8 +8,29 @@
   margin-left: 40px
 }
 
+.navbar-burger {
+  margin-right: 40px;
+}
+
+.navbar-end {
+  padding-right: 30px;
+}
+
 .navbar-item {
   font-family: 'Nunito', sans-serif;
   font-size: 12pt;
   margin: 0px;
 }
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .navbar-burger {
+    margin-top: 35px;
+  }
+  .navbar-menu {
+    margin-top: 14px;
+  }
+}
+
+/* Mobile */

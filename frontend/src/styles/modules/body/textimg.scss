@@ -1,3 +1,5 @@
+/* Desktop */
+
 .text-img-container {
   display: flex;
   justify-content: flex-end;
@@ -19,7 +21,7 @@
 .text-img-text {
   display: flex;
   flex-direction: column;
-  flex: 1 1 400px;
+  flex: 1 1 300px;
   padding-top: 40px;
   padding-right: 40px;
   padding-left: 40px;
@@ -32,4 +34,12 @@
   width: 460px;
   padding-top: 40px;
   padding-left: 40px
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .text-img-img {
+    display: none;
+  }
 }

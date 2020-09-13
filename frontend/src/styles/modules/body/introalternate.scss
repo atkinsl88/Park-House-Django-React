@@ -63,3 +63,22 @@
   padding-top: 40px;
   padding-left: 40px;
 }
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .introalternate-left-img {
+    display: none;
+  }
+  .introalternate-left-text {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .introalternate-right-img {
+    display: none;
+  }
+  .introalternate-right-text {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+}

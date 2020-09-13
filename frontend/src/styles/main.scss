@@ -2,6 +2,7 @@
 @import '~bulma/bulma.sass';
 
 /* Import - Navigation & Footer */
+@import './modules/navigation/covid19.scss';
 @import './modules/navigation/navigation.scss';
 @import './modules/navigation/subnav.scss';
 @import './modules/footer/footer.scss';
@@ -77,12 +78,105 @@ ul {
   padding: 0px;
 }
 
+ol {
+  margin-left: 20px;
+  padding: 0px;
+}
+
 li {
   font-family: 'Nunito', sans-serif;
   font-size: 12pt;
   margin: 0px;
   line-height: 30px;
   margin-bottom: 3px;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 28pt;
+    margin: 0px;
+  }
+  h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 18pt;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+  h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 14pt;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+  h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 14pt;
+    margin: 0px;
+    padding-bottom: 12px;
+  }
+  p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    margin: 0px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    margin: 0px;
+    line-height: 30px;
+    margin-bottom: 3px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 20pt;
+    margin: 0px;
+  }
+  h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 16pt;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+  h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 14pt;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+  h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 12pt;
+    margin: 0px;
+    padding-bottom: 12px;
+  }
+  p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 11pt;
+    margin: 0px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 11pt;
+    margin: 0px;
+    line-height: 30px;
+    margin-bottom: 3px;
+  }
 }
 
 /* Buttons */
@@ -98,4 +192,12 @@ button {
 button p {
   font-family: 'Nunito', sans-serif;
   font-size: 12pt;
+  color: #4A4A4A;
+}
+
+@media only screen and (max-width: 500px) {
+  button p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 11pt;
+  }
 }

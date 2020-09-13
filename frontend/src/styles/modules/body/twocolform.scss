@@ -1,4 +1,5 @@
 .twocolform-container {
+  border: #E0E0E0 1px solid;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -48,3 +49,17 @@ form {
 .radio-circle {
   margin-right: 10px;
 }
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .twocolform-container-box-form {
+    min-width: 100%;
+  }
+  .twocolform-container-box-form {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Mobile */

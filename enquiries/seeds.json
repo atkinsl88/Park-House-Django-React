@@ -1,0 +1,26 @@
+[
+{
+  "model": "enquiries.enquiries",
+  "pk": 1,
+  "fields": {
+    "first_name": "Liam",
+    "last_name": "Atkins",
+    "email": "liamatkins24@gmail.com",
+    "telephone": "07531219924",
+    "intrested_in": "domiciliarycare",
+    "have_agreed": true
+  }
+},
+{
+  "model": "enquiries.enquiries",
+  "pk": 2,
+  "fields": {
+    "first_name": "Karen",
+    "last_name": "Cannie",
+    "email": "karen@email.com",
+    "telephone": "01202 383826",
+    "intrested_in": "carehome",
+    "have_agreed": true
+  }
+}
+]

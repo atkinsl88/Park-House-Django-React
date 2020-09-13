@@ -28,7 +28,7 @@
   padding-top: 40px;
   padding-right: 40px;
   padding-left: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .footer-col3-image {
@@ -36,7 +36,6 @@
   flex-direction: column;
   justify-content: flex-end;
   height: 230px;
-
 }
 
 .footer-container p {
@@ -49,4 +48,18 @@
 
 .footer-container li {
   color: #FFFFFF;
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .footer-col3-image {
+    display: none;
+  }
+  .footer-col1 {
+    padding-bottom: 0px;
+  }
+  .footer-col2 {
+    padding-bottom: 0px;
+  }
 }

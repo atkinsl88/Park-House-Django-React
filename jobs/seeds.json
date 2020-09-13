@@ -1,0 +1,20 @@
+[
+{
+  "model": "jobs.jobs",
+  "pk": 1,
+  "fields": {
+    "job_title": "Healthcare Assistants (BANK Contracts) – Various Hours Available (Residential Care)",
+    "job_desc": "The purpose of this role is to support the contracted care staff in the covering of any shifts as required.  This is primarily to support the home in covering of sickness and annual leave. Shifts avai",
+    "job_contact": "Please contact James Ivers or Clare Clarke for further information on 01305 889420 or contact us via"
+  }
+},
+{
+  "model": "jobs.jobs",
+  "pk": 2,
+  "fields": {
+    "job_title": "Domiciliary Care Workers (BANK Contracts) – Various Hours Available",
+    "job_desc": "The purpose of this role is to support the contracted care staff in the covering of any shifts as required.  This is primarily to support the domiciliary team in covering of sickness and annual leave.",
+    "job_contact": "Please contact Rachel Gray for further information on 01305 889420 or contact us via the link."
+  }
+}
+]

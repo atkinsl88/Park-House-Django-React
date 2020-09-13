@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Navbar from './components/common/Navbar'
 import Subnav from './components/common/Subnav'
+import Covid19 from './components/common/Covid19'
 import Footer from './components/common/Footer'
 import Home from './components/homepage/Home'
 import Carehome from './components/carehome/Carehome'
@@ -20,10 +21,16 @@ import Teamdomiciliarycare from './components/meet-the-team/domiciliary/Teamdomi
 import Testcarehome from './components/testimonials/care/Testcarehome'
 import Testdomiciliarycare from './components/testimonials/domicilary/Testdomiciliarycare'
 import Contact from './components/contact/Contact'
+import Quality from './components/quality-assurance/Quality'
+import Working from './components/working-for-us/Working'
+import Privacy from './components/privacy/Privacy'
+import Covid from './components/covid/Covid'
+import Gallery from './components/gallery/Gallery'
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Covid19 />
       <Subnav />
       <Navbar />
       <Switch>
@@ -42,7 +49,12 @@ const App = () => {
         <Route exact path="/meet-the-team/domiciliarycare" component={Teamdomiciliarycare} />
         <Route exact path="/testimonials/carehome" component={Testcarehome} />
         <Route exact path="/testimonials/domicilary" component={Testdomiciliarycare} />
+        <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/quality-assurance" component={Quality} />
+        <Route exact path="/working-for-us" component={Working} />
+        <Route exact path="/privacy-policy" component={Privacy} />
+        <Route exact path="/covid-19" component={Covid} />
       </Switch>
       <Footer />
     </BrowserRouter>

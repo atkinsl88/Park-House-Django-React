@@ -16,7 +16,7 @@ const Introimgtext = () => (
         <div className="intro-img-text-text">
           <h3>Domiciliary Care</h3>
           <p>We also provide a domiciliary care (Home Care Service) locally in order to provide service users with a choice of their preferred place of care.  We aim to keep the service local, so that we can respond appropriately and accordingly to our service user’s needs.</p>
-          <button type="button">Domiciliary Care</button>
+          <a href="/domiciliarycare"><button type="button">Domiciliary Care</button></a>
         </div>
       </div>
       <div className="intro-img-text-indv">
@@ -29,8 +29,8 @@ const Introimgtext = () => (
           <p>The two services work closely together and our staff frequently work in both the care home and domiciliary care service.  This means we are able to offer a full range of care services meaning you can transition through our services to suit your own individuals needs and preferences.  Giving you full continuity of care and support staff, which can often be lost when switching between domiciliary and care home services.</p>
           <p>Feedback from our residents and clients (current and past) suggests that it has been a perfect solution, to be able to change from care within your own home to care within a residential setting (or vice versa).  In addition to not being required to repeat the full assessment process, not having to change care providers, and most importantly being able to receive continuity of care from all your usual care and support staff.</p>
           <div className='intro-img-text-button'>
-            <button type="button">Care Home</button>
-            <button type="button">Day Care</button>
+            <a href="/carehome"><button type="button" href="carehome">Care Home</button></a>
+            <a href="/daycare"><button type="button" href="carehome">Day Care</button></a>
           </div>
         </div>
       </div>

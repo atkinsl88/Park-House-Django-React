@@ -8,19 +8,30 @@
 
 .boxes {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
 .boxi {
-  width: 50%;
-  min-width: 558px;
+  width: 580px;
   background-color: #FBFBFB;
   border: #E0E0E0 1px solid;
   text-align: center;
   padding: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
   box-shadow: 2px 2px #888888;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1260px) {
+  .boxes {
+    margin-bottom: 0px;
+  }
+  .boxi {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
