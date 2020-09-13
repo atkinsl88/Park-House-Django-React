@@ -1,7 +1,14 @@
 import axios from 'axios'
-
-const baseUrl = 'https://localhost:8000'
+const baseUrl = 'http://localhost:8000/api'
 
 export const newEnquiry = formData => {
   return axios.post(`${baseUrl}/enquiries`, formData)
+}
+
+export const getAllImages = () => {
+  return axios.get(`${baseUrl}/gallery`)
+}
+
+export const getAllJobs = () => {
+  return axios.get(`${baseUrl}/jobs`)
 }

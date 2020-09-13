@@ -28,6 +28,7 @@ import Covid from './components/covid/Covid'
 import Gallery from './components/gallery/Gallery'
 
 const App = () => {
+  
   return (
     <BrowserRouter>
       <Covid19 />

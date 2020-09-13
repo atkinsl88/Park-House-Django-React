@@ -12,6 +12,12 @@ class Navbar extends React.Component {
     this.setState({ isOpen: !this.state.isOpen})
   }
 
+  componentDidUpdate(prevProps) {
+    if (prevProps.location.pathname !== this.props.location.pathname) {
+      this.setState({ isOpen: false })
+    }
+  }
+
   render(){
   return (
 
