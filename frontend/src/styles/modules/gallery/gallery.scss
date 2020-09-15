@@ -1,21 +1,19 @@
 .gallery-container {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  padding-left: 10px;
 }
 
 .gallery-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 20px;
 }
 
 .gallery-image {
-  margin-right: 20px;
 }
 
 .gallery-image img {
-  height: 330px;
-  width: 400px;
+  width: 460px;
 }

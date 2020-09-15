@@ -123,3 +123,24 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Email settings (Local)
+
+# EMAIL_HOST = 'localhost'
+# EMAIL_PORT = '1025'
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_USE_TLS = False
+# EMAIL_USE_SSL = False
+
+# Email settings (Production)
+# https://myaccount.google.com/lesssecureapps
+# https://accounts.google.com/DisplayUnlockCaptcha
+# https://myaccount.google.com/apppasswords
+
+EMAIL_HOST = 'smtp.gamil.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'liamtkins24@gmail.com'
+EMAIL_HOST_PASSWORD = 'mpckcqrhbrmdorlv'
+EMAIL_USE_TLS = True
+# EMAIL_USE_SSL = False

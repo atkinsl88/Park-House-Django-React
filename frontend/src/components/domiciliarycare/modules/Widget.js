@@ -5,7 +5,7 @@ const Widget = () => (
 
     <div className="widget-container">
       <div className="widget-text">
-        <h2>Registration & Stadards</h2>
+        <h2>Registration & Standards</h2>
         <p>Park House is registered with the Care Quality Commission (CQC) who are the regulatory body within all Health and Social Care settings.  Our most recent inspection report is available to download on our website and also displayed within the entrance hall to the home.</p>
       </div>
       <div className="widget">

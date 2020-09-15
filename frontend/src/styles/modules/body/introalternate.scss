@@ -37,9 +37,14 @@
 }
 
 .introalternate-left-img {
-  width: 460px;
   padding-top: 20px;
+  padding-right: 40px;
   padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.introalternate-left-img img {
+  width: 460px;
 }
 
 .introalternate-right {
@@ -59,10 +64,14 @@
 }
 
 .introalternate-right-img {
-  width: 460px;
   padding-top: 20px;
   padding-left: 40px;
-  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.introalternate-right-img img {
+  width: 460px;
 }
 
 /* Tablet */

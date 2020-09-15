@@ -179,7 +179,7 @@ class Twocolform extends React.Component {
                     <input
                       type="checkbox"
                       name="have_agreed"
-                      // className="radio-circle"
+                      className="check-square"
                       onChange={this.handleChange}
                       checked={formData.have_agreed}
                     />
@@ -189,7 +189,7 @@ class Twocolform extends React.Component {
               </div>
 
               <div className="field">
-                <button type="submit" className="button">Submit</button>
+                <button type="submit" className="button button-form">Submit</button>
               </div>
 
             </form>

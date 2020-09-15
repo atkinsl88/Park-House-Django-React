@@ -22,13 +22,13 @@
 
 .twocolform-container-box-text {
   width: 50%;
-  padding-right: 40px;
+  padding-right: 80px;
   flex: 1 1 500px
 }
 
 .twocolform-container-box-form {
   border: #E0E0E0 1px solid;
-  height: 750px;
+  height: 800px;
   width: 50%;
   padding-top: 40px;
   padding-right: 40px;
@@ -50,6 +50,20 @@ form {
   margin-right: 10px;
 }
 
+.check-square {
+  margin-right: 10px;
+}
+
+
+.button-form {
+  width: 140px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 20px
+}
+
 /* Tablet */
 
 @media only screen and (max-width: 1024px) {
@@ -59,6 +73,9 @@ form {
   .twocolform-container-box-form {
     margin-top: 20px;
     margin-bottom: 40px;
+  }
+  .twocolform-container-box-text {
+    padding-right: 10px;
   }
 }
 

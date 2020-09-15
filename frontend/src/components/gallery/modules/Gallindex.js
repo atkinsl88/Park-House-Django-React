@@ -21,13 +21,11 @@ class Gallindex extends React.Component {
 
   render() {
     return (
-      <section className="section">
-        <div className="container">
-          <div className="columns is-multiline">
-            {this.state.images.map(image => (
+      <section>
+        <div className="gallery-container">
+          {this.state.images.map(image => (
               <Gallcard key={image._id} {...image}/>
             ))}
-          </div>
         </div>
       </section>
     )

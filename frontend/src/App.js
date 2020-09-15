@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import ReactGA from 'react-ga';
 
 import Navbar from './components/common/Navbar'
 import Subnav from './components/common/Subnav'
@@ -29,6 +30,11 @@ import Gallery from './components/gallery/Gallery'
 import Form from './components/form/Form'
 
 const App = () => {
+
+  function initializeReactGA() {
+    ReactGA.initialize('UA-178050622-1');
+    ReactGA.pageview('/homepage');
+  }
   
   return (
     <BrowserRouter>

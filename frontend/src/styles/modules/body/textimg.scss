@@ -31,9 +31,14 @@
 .text-img-img {
   display: flex;
   justify-content: flex-start;
-  width: 460px;
   padding-top: 40px;
-  padding-left: 40px
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.text-img-img img {
+  width: 460px;
 }
 
 /* Tablet */
