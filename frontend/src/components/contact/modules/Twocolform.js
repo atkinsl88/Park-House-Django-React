@@ -2,6 +2,7 @@ import React from 'react'
 import { newEnquiry } from '../../../lib/api'
 
 class Twocolform extends React.Component {
+
   state = {
     formData: {
       first_name: '',
@@ -9,21 +10,34 @@ class Twocolform extends React.Component {
       email: '',
       telephone: '',
       intrested_in: '',
-      have_agreed: ''
-    }
+      have_agreed: false
+    },
+    modalIsOpen: false
   }
 
-  handleChange = event => {
-    const formData = { ...this.state.formData, [event.target.name]: event.target.value }
+  handleChange = (event) => {
+    const value = event.target.type === 'checkbox' ? event.target.checked : event.target.value
+    const formData = { ...this.state.formData, [event.target.name]: value }
     this.setState({ formData })
   }
 
-  handleSubmit = event => {
+  handleSubmit = async event => {
     event.preventDefault()
-    console.log('Equiry send to database', this.state.formData)
+    try {
+      const res = await newEnquiry(this.state.formData)
+      console.log(res)
+    } catch (err) {
+      console.log(err.response.data)
+    }
+  }
+
+  handleModal = (openState) => {
+    this.setState( { modalIsOpen: openState } )
   }
 
   render() {
+    const { formData }  = this.state
+    console.log(formData)
     return (
       <section>
 
@@ -64,7 +78,7 @@ class Twocolform extends React.Component {
                       placeholder="Enter first name"
                       name="first_name"
                       onChange={this.handleChange}
-                      value={this.state.formData.first_name}
+                      value={formData.first_name}
                     />
                   </div>
               </div>
@@ -77,7 +91,7 @@ class Twocolform extends React.Component {
                       placeholder="Enter last name"
                       name="last_name"
                       onChange={this.handleChange}
-                      value={this.state.formData.last_name}
+                      value={formData.last_name}
                     />
                   </div>
               </div>
@@ -90,7 +104,7 @@ class Twocolform extends React.Component {
                       placeholder="Enter email address"
                       name="email"
                       onChange={this.handleChange}
-                      value={this.state.formData.email}
+                      value={formData.email}
                     />
                   </div>
               </div>
@@ -103,7 +117,7 @@ class Twocolform extends React.Component {
                       placeholder="Enter telephone number"
                       name="telephone"
                       onChange={this.handleChange}
-                      value={this.state.formData.telephone}
+                      value={formData.telephone}
                     />
                   </div>
               </div>
@@ -117,7 +131,8 @@ class Twocolform extends React.Component {
                       name="intrested_in"
                       className="radio-circle"
                       onChange={this.handleChange}
-                      value={this.state.formData.intrested_in}
+                      checked={formData.intrested_in === 'carehome'}
+                      value="carehome"
                     />
                       Care Home
                   </label>
@@ -127,7 +142,8 @@ class Twocolform extends React.Component {
                       name="intrested_in"
                       className="radio-circle"
                       onChange={this.handleChange}
-                      // value={this.state.formData.intrested_in}
+                      checked={formData.intrested_in === 'daycare'}
+                      value="daycare"
                     />
                       Day Care
                   </label>
@@ -137,7 +153,8 @@ class Twocolform extends React.Component {
                       name="intrested_in"
                       className="radio-circle"
                       onChange={this.handleChange}
-                      // value={this.state.formData.intrested_in}
+                      checked={formData.intrested_in === 'domiciliarycare'}
+                      value="domiciliarycare"
                     />
                       Domiciliary Care
                   </label>
@@ -147,7 +164,8 @@ class Twocolform extends React.Component {
                       name="intrested_in"
                       className="radio-circle"
                       onChange={this.handleChange}
-                      // value={this.state.formData.intrested_in}
+                      checked={formData.intrested_in === 'livein'}
+                      value="livein"
                     />
                       Live In
                   </label>
@@ -159,11 +177,11 @@ class Twocolform extends React.Component {
                 <div className="control">
                   <label className="radio">
                     <input
-                      type="radio"
+                      type="checkbox"
                       name="have_agreed"
-                      className="radio-circle"
+                      // className="radio-circle"
                       onChange={this.handleChange}
-                      value={this.state.formData.have_agreed}
+                      checked={formData.have_agreed}
                     />
                       I have read and understood how Park House processes personal data as set out in the Privacy Policy.
                   </label>
@@ -171,7 +189,7 @@ class Twocolform extends React.Component {
               </div>
 
               <div className="field">
-                <button className="button">Submit</button>
+                <button type="submit" className="button">Submit</button>
               </div>
 
             </form>

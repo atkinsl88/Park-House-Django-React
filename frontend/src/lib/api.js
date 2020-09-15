@@ -1,12 +1,12 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:8000/api'
+const baseUrl = '/api'
 
 export const newEnquiry = formData => {
-  return axios.post(`${baseUrl}/enquiries`, formData)
+  return axios.post(`${baseUrl}/enquiries/`, formData)
 }
 
 export const getAllImages = () => {
-  return axios.get(`${baseUrl}/gallery`)
+  return axios.get(`${baseUrl}/images`)
 }
 
 export const getAllJobs = () => {

@@ -9,9 +9,9 @@ const Footer = () => (
 
       <div className="footer-col1">
         <h4>Contact Details</h4>
-        <p>Park House <br /> Care Home & Home Care Service Martinstown, Dorchester, Dorset DT2 9JN</p>
-        <p>Telephone <br /> 01305 889420</p>
-        <p>Email <br /> <a href="mailto:info@parkhousecare.orgm">info@parkhousecare.org</a></p>
+        <p><b>Park House</b> <br /> Care Home & Home Care Service Martinstown, Dorchester, Dorset DT2 9JN</p>
+        <p><b>Telephone</b> <br /> 01305 889420</p>
+        <p><b>Email</b> <br /> <a href="mailto:info@parkhousecare.orgm">info@parkhousecare.org</a></p>
       </div>
 
       <div className="footer-col2">
@@ -28,7 +28,7 @@ const Footer = () => (
       <div className="footer-col3">
         <div>
           <h4>Social Media</h4>
-          <a href="url"><img src={facebook} alt="logo" /></a>
+          <a href="https://www.facebook.com/parkhousemartinstown" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="logo" /></a>
         </div>
         <div className="footer-col3-image">
           <img src={tree} alt="logo" />

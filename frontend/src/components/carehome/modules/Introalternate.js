@@ -4,7 +4,7 @@ import image from '../../../../src/assets/image.png'
 const Introalternate = () => (
   <section>
 
-    <div className="intro-alternate">
+    <div className="intro-alternate-container">
 
       <div className="introalternate-intro">
         <h2>Activities</h2>

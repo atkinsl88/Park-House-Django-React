@@ -2,8 +2,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('enquiries/', include('enquiries.urls')),
-    path('jobs/', include('jobs.urls')),
-    path('gallery/', include('gallery.urls'))
+    path('api/admin/', admin.site.urls),
+    path('api/enquiries/', include('enquiries.urls')),
+    path('api/jobs/', include('jobs.urls')),
+    path('api/images/', include('gallery.urls'))
 ]

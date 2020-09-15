@@ -1,0 +1,21 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery-image {
+  margin-right: 20px;
+}
+
+.gallery-image img {
+  height: 330px;
+  width: 400px;
+}

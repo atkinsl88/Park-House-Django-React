@@ -1,158 +1,223 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { newEnquiry } from '../../../src/lib/api'
 import Modal from 'react-modal'
 
 Modal.setAppElement('#root')
-const Form = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false)
-  return (
 
-    <section>
+class Form extends React.Component {
+  
+  state = {
+    formData: {
+      first_name: '',
+      last_name: '',
+      email: '',
+      telephone: '',
+      intrested_in: '',
+      have_agreed: ''
+    },
+    modalIsOpen: false
+  }
 
-      <button type="button" onClick={() => setModalIsOpen(true)}>Request</button>
+  handleChange = event => {
+    const formData = { ...this.state.formData, [event.target.name]: event.target.value }
+    this.setState({ formData })
+  }
 
-      <Modal 
-      isOpen={modalIsOpen} 
-      onRequestClose={() => setModalIsOpen(false)}
-      style={{
-        overlay: {
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          backgroundColor: 'rgba(0, 0, 0, 0.75)'
-        },
-        content: {
-          position: 'absolute',
-          top: '100px',
-          left: '40px',
-          right: '40px',
-          bottom: '450px',
-          border: '1px solid #ccc',
-          background: '#fff',
-          overflow: 'auto',
-          WebkitOverflowScrolling: 'touch',
-          borderRadius: '4px',
-          outline: 'none',
-          padding: '20px'
-        }
-      }}
-      >
+  handleSubmit = async event => {
+    event.preventDefault()
+    try {
+      const res = await newEnquiry(this.state.formData)
+      console.log(res)
+    } catch (err) {
+      console.log(err.response.data)
+    }
+  }
 
-        <h3>Contact Us</h3>
-        <p>Fill in the form below to contact us.</p>
+  handleModal = (openState) => {
+    this.setState( { modalIsOpen: openState } )
+  }
 
-        <form>
+  render() {
+    const { formData }  = this.state
+    console.log(formData)
+    return (
 
-          <div className="field">
-            <label className="label">First Name</label>
-              <div className="control">
-                <input
-                  className="input"
-                  placeholder="Enter first name"
-                  name="first_name"
-                />
-              </div>
+      <section>
+
+        <button type="button" onClick={() => this.handleModal(true)}>Request</button>
+
+        <Modal 
+        isOpen={this.state.modalIsOpen} 
+        onRequestClose={() => this.handleModal(false)}
+        style={{
+          overlay: {
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.75)'
+          },
+          content: {
+            position: 'absolute',
+            top: '100px',
+            left: '40px',
+            right: '40px',
+            bottom: '40px',
+            border: '1px solid #ccc',
+            background: '#fff',
+            overflow: 'auto',
+            WebkitOverflowScrolling: 'touch',
+            borderRadius: '4px',
+            outline: 'none',
+            padding: '20px',
+          }
+        }}
+        >
+
+          <div className="delete-button">
+            <button className="delete" type="button" onClick={() => this.handleModal(false)}>Close</button>
           </div>
 
-          <div className="field">
-            <label className="label">Last Name</label>
-              <div className="control">
-                <input
-                  className="input"
-                  placeholder="Enter last name"
-                  name="last_name"
-                />
-              </div>
+
+          <div>
+            <h3>Contact Us</h3>
+            <p>Fill in the form below to contact us.</p>
           </div>
 
-          <div className="field">
-            <label className="label">Email Address</label>
-              <div className="control">
-                <input
-                  className="input"
-                  placeholder="Enter email address"
-                  name="email"
-                />
-              </div>
-          </div>
 
-          <div className="field">
-            <label className="label">Contact Telephone</label>
-              <div className="control">
-                <input
-                  className="input"
-                  placeholder="Enter telephone number"
-                  name="telephone"
-                />
-              </div>
-          </div>
+          <form onSubmit={this.handleSubmit}>
 
-          <div className="field">
-            <label className="label">Intrested In?</label>
-            <div className="control">
-              <label className="radio">
-                <input
-                  type="radio"
-                  name="intrested_in"
-                  className="radio-circle"
-                />
-                  Care Home
-              </label>
-              <label className="radio">
-                <input
-                  type="radio"
-                  name="intrested_in"
-                  className="radio-circle"
-                />
-                  Day Care
-              </label>
-              <label className="radio">
-                <input
-                  type="radio"
-                  name="intrested_in"
-                  className="radio-circle"
-                />
-                  Domiciliary Care
-              </label>
-              <label className="radio">
-                <input
-                  type="radio"
-                  name="intrested_in"
-                  className="radio-circle"
-                />
-                  Live In
-              </label>
+            <div className="field">
+              <label className="label">First Name</label>
+                <div className="control">
+                  <input
+                    className="input"
+                    placeholder="Enter first name"
+                    name="first_name"
+                    onChange={this.handleChange}
+                    value={formData.first_name}
+                  />
+                </div>
             </div>
-          </div>
 
-          <div className="field">
-            <label className="label"></label>
-            <div className="control">
-              <label className="radio">
-                <input
-                  type="radio"
-                  name="have_agreed"
-                  className="radio-circle"
-                />
-                  I have read and understood how Park House processes personal data as set out in the Privacy Policy.
-              </label>
+            <div className="field">
+              <label className="label">Last Name</label>
+                <div className="control">
+                  <input
+                    className="input"
+                    placeholder="Enter last name"
+                    name="last_name"
+                    onChange={this.handleChange}
+                    value={formData.last_name}
+                  />
+                </div>
             </div>
-          </div>
 
-          <div className="field">
-            <button type="button">Submit</button>
-          </div>
+            <div className="field">
+              <label className="label">Email Address</label>
+                <div className="control">
+                  <input
+                    className="input"
+                    placeholder="Enter email address"
+                    name="email"
+                    onChange={this.handleChange}
+                    value={formData.email}
+                  />
+                </div>
+            </div>
 
-        </form>
+            <div className="field">
+              <label className="label">Contact Telephone</label>
+                <div className="control">
+                  <input
+                    className="input"
+                    placeholder="Enter telephone number"
+                    name="telephone"
+                    onChange={this.handleChange}
+                    value={formData.telephone}
+                  />
+                </div>
+            </div>
 
-        <button type="button" onClick={() => setModalIsOpen(false)}>Close</button>
+            <div className="field">
+              <label className="label">Intrested In?</label>
+              <div className="control">
+                <label className="radio">
+                  <input
+                    type="radio"
+                    name="intrested_in"
+                    className="radio-circle"
+                    onChange={this.handleChange}
+                    checked={formData.intrested_in === 'carehome'}
+                    value="carehome"
+                  />
+                    Care Home
+                </label>
+                <label className="radio">
+                  <input
+                    type="radio"
+                    name="intrested_in"
+                    className="radio-circle"
+                    onChange={this.handleChange}
+                    checked={formData.intrested_in === 'daycare'}
+                    value="daycare"
+                  />
+                    Day Care
+                </label>
+                <label className="radio">
+                  <input
+                    type="radio"
+                    name="intrested_in"
+                    className="radio-circle"
+                    onChange={this.handleChange}
+                    checked={formData.intrested_in === 'domiciliarycare'}
+                    value="domiciliarycare"
+                  />
+                    Domiciliary Care
+                </label>
+                <label className="radio">
+                  <input
+                    type="radio"
+                    name="intrested_in"
+                    className="radio-circle"
+                    onChange={this.handleChange}
+                    checked={formData.intrested_in === 'livein'}
+                    value="livein"
+                  />
+                    Live In
+                </label>
+              </div>
+            </div>
 
-      </Modal>
+            <div className="field">
+              <label className="label"></label>
+              <div className="control">
+                <label className="radio">
+                  <input
+                    type="checkbox"
+                    name="have_agreed"
+                    // className="radio-circle"
+                    onChange={this.handleChange}
+                    checked={formData.have_agreed}
+                  />
+                    I have read and understood how Park House processes personal data as set out in the Privacy Policy.
+                </label>
+              </div>
+            </div>
+
+            <div className="field">
+              <button type="submit" className="button">Submit</button>
+            </div>
+
+          </form>
+
+        </Modal>
 
     </section>
 
-  )
+    )
+  }
 }
 
 export default Form

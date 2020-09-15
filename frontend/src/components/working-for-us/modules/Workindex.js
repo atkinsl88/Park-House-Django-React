@@ -3,15 +3,16 @@ import { getAllJobs } from '../../../lib/api'
 
 import Workcard from './Workcard'
 
-class Gallindex extends React.Component {
+class Workindex extends React.Component {
 
   state = {
-    images: []
+    jobs: []
   }
 
   async componentDidMount() {
     try {
       const res = await getAllJobs()
+      console.log(res)
       this.setState({ jobs: res.data })
     } catch (err) {
       console.log(err)
@@ -19,24 +20,18 @@ class Gallindex extends React.Component {
   }
 
   render() {
-    console.log(this.state.jobs)
     return (
-
-      <section className="section">
-        <div className="container">
-
-          <div className="columns is-multiline">
-            {this.state.images.map(job => (
+      <section>
+        <div>
+        {this.state.jobs.map(job => (
               <Workcard key={job._id} {...job}/>
             ))}
-          </div>
-
         </div>
       </section>
-      
+    
     )
   }
   
 }
 
-export default Gallindex
+export default Workindex
