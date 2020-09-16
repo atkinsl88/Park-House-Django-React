@@ -19,15 +19,6 @@ class EnquiryListView(APIView):
         if created_enquiry.is_valid():
           created_enquiry.save()
           return Response(created_enquiry.data, status=status.HTTP_201_CREATED)
-
-        # Send an email
-        send_mail(
-          'New enquiry', # Subject
-          created_enquiry, # Message
-          '', # From
-          ['liamatkins24@gmail.com'], # To
-        )
-
         return Response(created_enquiry.errors)
 
 class EnquiryDetailView(APIView):

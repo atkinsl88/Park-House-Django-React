@@ -1,6 +1,8 @@
 import React from 'react'
 import { newEnquiry } from '../../../src/lib/api'
 import Modal from 'react-modal'
+import { Link } from 'react-router-dom'
+
 
 Modal.setAppElement('#root')
 
@@ -26,8 +28,7 @@ class Form extends React.Component {
   handleSubmit = async event => {
     event.preventDefault()
     try {
-      const res = await newEnquiry(this.state.formData)
-      console.log(res)
+      await newEnquiry(this.state.formData)
     } catch (err) {
       console.log(err.response.data)
     }
@@ -199,7 +200,9 @@ class Form extends React.Component {
                 </div>
               </div>
               <div className="field">
-                <button type="submit" className="button button-form">Submit</button>
+                <Link to="/downloads">
+                  <button type="submit" className="button button-form">Submit</button>
+                </Link>
               </div>
             </form>
           </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { newEnquiry } from '../../../lib/api'
+import { Link } from 'react-router-dom'
 
 class Twocolform extends React.Component {
 
@@ -11,8 +12,7 @@ class Twocolform extends React.Component {
       telephone: '',
       intrested_in: '',
       have_agreed: false
-    },
-    modalIsOpen: false
+    }
   }
 
   handleChange = (event) => {
@@ -24,23 +24,18 @@ class Twocolform extends React.Component {
   handleSubmit = async event => {
     event.preventDefault()
     try {
-      const res = await newEnquiry(this.state.formData)
-      console.log(res)
+      await newEnquiry(this.state.formData)
     } catch (err) {
       console.log(err.response.data)
     }
   }
 
-  handleModal = (openState) => {
-    this.setState( { modalIsOpen: openState } )
-  }
-
   render() {
-    const { formData }  = this.state
+    const { formData } = this.state
     console.log(formData)
     return (
       <section>
-
+      
       <div className="twocolform-container">
 
         <div className="twocolform-container-intro">
@@ -52,7 +47,7 @@ class Twocolform extends React.Component {
             <h3>Management and Administration Office Hours</h3>
             <p>Our management and administration office is open Monday to Friday 09:00hrs till 17:00hrs, and does not close during these hours.  The office however does close on Public Bank Holidays and has limited opening hours over the Christmas and New Year period.  Our office address is:</p>
             <p>Park House Care (UK) Ltd,<br /> Park House,<br /> Martinstown,<br /> Dorchester,<br /> Dorset,<br /> DT2 9JN</p>
-            <p>Our Telephone Number is: 01305 889420<br />Our Fax Number is:   01305 889027</p>
+            <p>Our Telephone Number is: 01305 889420<br />Our Fax Number is: 01305 889027</p>
             <p>Our directors and management team are often available outside of the above hours, by appointment only.</p>
             <p>When calling us via telephone, you can select the following options to get through to who you need quickly. Please can we add to the contact us page that all telephone calls are recorded for training and monitoring purposes.</p>
             <p>Option 1: To speak to a member of the Senior Care Team or to a Resident,<br />Option 2: To speak to a member of the community home care services,<br />Option 3: To speak to James Ivers and to enquirer in to residential vacancies ,<br />Option 4: To speak to Clare Clarke, Option 5: Sales and Marketing Calls.</p>
@@ -189,7 +184,9 @@ class Twocolform extends React.Component {
               </div>
 
               <div className="field">
-                <button type="submit" className="button button-form">Submit</button>
+                <Link to="/thankyou">
+                  <button type="submit" className="button button-form">Submit</button>
+                </Link>
               </div>
 
             </form>

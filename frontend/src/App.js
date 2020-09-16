@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 
 import Navbar from './components/common/Navbar'
 import Subnav from './components/common/Subnav'
@@ -28,13 +28,15 @@ import Privacy from './components/privacy/Privacy'
 import Covid from './components/covid/Covid'
 import Gallery from './components/gallery/Gallery'
 import Form from './components/form/Form'
+import Downloads from './components/downloads/Downloads'
+import Thankyou from './components/thankyou/Thankyou'
 
 const App = () => {
 
-  function initializeReactGA() {
-    ReactGA.initialize('UA-178050622-1');
-    ReactGA.pageview('/homepage');
-  }
+  // function initializeReactGA() {
+  //   ReactGA.initialize('UA-178050622-1');
+  //   ReactGA.pageview('/homepage');
+  // }
   
   return (
     <BrowserRouter>
@@ -64,9 +66,12 @@ const App = () => {
         <Route exact path="/privacy-policy" component={Privacy} />
         <Route exact path="/covid-19" component={Covid} />
         <Route exact path="/form" component={Form} />
+        <Route exact path="/downloads" component={Downloads} />
+        <Route exact path="/thankyou" component={Thankyou} />
       </Switch>
       <Footer />
     </BrowserRouter>
+    
   )
 }
 
