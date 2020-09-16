@@ -7,7 +7,7 @@ import CoronavirusEnglandMay2020 from '../../../assets/downloads/CoronavirusEngl
 const Intro = () => (
   <section>
 
-    <div className="intro12col">
+    <div className="intro12col fill">
 
       <div className="intro12col-block download">
 

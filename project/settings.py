@@ -140,7 +140,7 @@ STATIC_URL = '/static/'
 
 # EMAIL_HOST = 'smtp.gamil.com'
 # EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'liamtkins24@gmail.com'
+# EMAIL_HOST_USER = ''
 # EMAIL_HOST_PASSWORD = 'mpckcqrhbrmdorlv'
 # EMAIL_USE_TLS = True
 # EMAIL_USE_SSL = False

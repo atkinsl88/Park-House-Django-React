@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => (
   <section>
 
-    <div className="intro12col">
+    <div className="intro12col fill">
 
       <p>Often the individual assessing your care needs will be able to make a decision immediately at the end of the assessment process; however in some more complex cases we will need more time to ensure all your needs can be met safely.  Should this be the case you can usually expect to hear from us within seven days of the initial assessment.</p>
 

@@ -23,6 +23,7 @@ class Twocolform extends React.Component {
 
   handleSubmit = async event => {
     event.preventDefault()
+    this.props.history.push('/thankyou')
     try {
       await newEnquiry(this.state.formData)
     } catch (err) {

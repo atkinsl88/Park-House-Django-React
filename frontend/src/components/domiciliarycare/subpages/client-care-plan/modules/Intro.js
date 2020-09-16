@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => (
   <section>
 
-    <div className="intro12col">
+    <div className="intro12col fill">
 
       <p>Should you the Client wish to continue and use Park House Care Services a comprehensive care plan will be tailored to suit your needs and be maintained regularly to ensure that your individual needs are met.</p>
 

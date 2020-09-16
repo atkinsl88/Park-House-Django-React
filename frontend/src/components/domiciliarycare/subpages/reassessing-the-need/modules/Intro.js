@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => (
   <section>
 
-    <div className="intro12col">
+    <div className="intro12col fill">
 
       <p>Over time your needs may change. You may need more or less care, the type or pattern of service may have to be varied, new risks may become apparent. So, again with your help, we will keep your needs under review and take decisions about the care accordingly. If at any time there are aspects about the care which you would like to change, let us know.</p>
 

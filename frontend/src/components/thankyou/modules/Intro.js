@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => (
   <section>
 
-    <div className="intro12col">
+    <div className="intro12col fill">
 
       <div className="intro12col-block">
 
