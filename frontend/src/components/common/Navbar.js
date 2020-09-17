@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png'
 class Navbar extends React.Component {
 
   state = {
-    loggedIn: false
+    isOpen: false
   }
 
   handleToggle = () => {
@@ -24,7 +24,8 @@ class Navbar extends React.Component {
       <nav className="navbar">
           <div className="navbar-brand">
 
-            <Link to="/"><img src={logo} alt="logo" /></Link>
+            <Link to="/"><img src={logo} alt="logo" />
+            </Link>
 
             <span onClick={this.handleToggle} className={`navbar-burger ${this.state.isOpen ? 'is-active' : ''}`}>
               <span></span>

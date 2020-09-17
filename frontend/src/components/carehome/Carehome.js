@@ -9,19 +9,22 @@ import Boxes from './modules/Boxes'
 import Centrebutton from './modules/Centrebutton'
 import Widget from './modules/Widget'
 
-const Carehome = () => (
+const Carehome = (props) => {
+  const { history } = props
 
-  <section>
+  return (
+    <section>
     <Hero />
     <Intro />
     <Textimg />
     <Textimg2 />
     <Introalternate />
     <Boxes />
-    <Centrebutton />
+    <Centrebutton history = { history } />
     <Widget />
   </section>
+  )
 
-)
+}
 
 export default Carehome

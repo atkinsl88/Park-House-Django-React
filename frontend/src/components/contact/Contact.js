@@ -3,13 +3,16 @@ import React from 'react'
 import Hero from './modules/Hero'
 import Twocolform from './modules/Twocolform'
 
-const Contact = () => (
+const Contact = (props) => {
+const { history } = props
 
-  <section>
-    <Hero />
-    <Twocolform />
-  </section>
+  return (
+    <section>
+      <Hero />
+      <Twocolform history = { history } />
+    </section>
+  )
 
-)
+}
 
 export default Contact

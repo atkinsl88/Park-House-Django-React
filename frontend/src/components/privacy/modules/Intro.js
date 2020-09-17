@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => (
   <section>
 
-    <div className="intro12col">
+    <div className="intro12col download">
 
       <div className="intro12col-block">
 
@@ -13,7 +13,7 @@ const Intro = () => (
 
         <h4>1. Information About Us</h4>
 
-        <p>Park House Care (UK) Ltd is a limited company registered in England under company number 05869596.  Our Registered address: Park House, Martinstown, Dorchester, Dorset, DT2 9JN.  Our telephone number is 01305 889420 and our e-mail is info@parkhousecare.org for residential care and parkhousehomecare@ymail.com for domiciliary care.</p>
+        <p>Park House Care (UK) Ltd is a limited company registered in England under company number 05869596.  Our Registered address: Park House, Martinstown, Dorchester, Dorset, DT2 9JN.  Our telephone number is 01305 889420 and our e-mail is <a href="mailto:info@parkhousecare.org">info@parkhousecare.org</a> for residential care and <a href="mailto:parkhousehomecare@ymail.com">parkhousehomecare@ymail.com</a> for domiciliary care.</p>
 
         <p>Our Residential Data Protection Officer and Controller is: Mr James Ivers, who is contactable on the information above.</p>
 

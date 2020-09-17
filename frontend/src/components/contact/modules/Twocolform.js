@@ -1,6 +1,6 @@
 import React from 'react'
 import { newEnquiry } from '../../../lib/api'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 class Twocolform extends React.Component {
 
@@ -23,9 +23,10 @@ class Twocolform extends React.Component {
 
   handleSubmit = async event => {
     event.preventDefault()
-    this.props.history.push('/thankyou')
     try {
       await newEnquiry(this.state.formData)
+      console.log(this.props)
+      this.props.history.push('/thankyou')
     } catch (err) {
       console.log(err.response.data)
     }
@@ -185,9 +186,7 @@ class Twocolform extends React.Component {
               </div>
 
               <div className="field">
-                <Link to="/thankyou">
-                  <button type="submit" className="button button-form">Submit</button>
-                </Link>
+                <button type="submit" className="button button-form">Submit</button>
               </div>
 
             </form>
