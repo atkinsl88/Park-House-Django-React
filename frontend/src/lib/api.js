@@ -6,9 +6,9 @@ export const newEnquiry = formData => {
 }
 
 export const getAllImages = () => {
-  return axios.get(`${baseUrl}/images`)
+  return axios.get(`${baseUrl}/images/`)
 }
 
 export const getAllJobs = () => {
-  return axios.get(`${baseUrl}/jobs`)
+  return axios.get(`${baseUrl}/jobs/`)
 }
