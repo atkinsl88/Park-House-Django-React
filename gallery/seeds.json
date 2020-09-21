@@ -1,12 +1,98 @@
 [
-  {
-    "id": 1,
-    "img_url": "https://i.imgur.com/P5WmhOD.jpg",
-    "img_alt_desc": "image test 1"
-  },
-  {
-    "id": 2,
-    "img_url": "https://i.imgur.com/mqx6eaR.jpg",
-    "img_alt_desc": "Image test 2"
+{
+  "model": "gallery.gallery",
+  "pk": 1,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 1"
   }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 2,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 2"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 3,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 3"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 4,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 4"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 5,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 5"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 6,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 6"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 7,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 7"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 8,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 8"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 9,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 9"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 10,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 10"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 11,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 11"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 12,
+  "fields": {
+    "img_url": "https://i.imgur.com/iGMYH3A.png",
+    "img_alt_desc": "Image 12"
+  }
+}
 ]
