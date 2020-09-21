@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-// import ReactGA from 'react-ga';
 
 import Navbar from './components/common/Navbar'
 import Subnav from './components/common/Subnav'
@@ -32,11 +31,6 @@ import Downloads from './components/downloads/Downloads'
 import Thankyou from './components/thankyou/Thankyou'
 
 const App = () => {
-
-  // function initializeReactGA() {
-  //   ReactGA.initialize('UA-178050622-1');
-  //   ReactGA.pageview('/homepage');
-  // }
   
   return (
     <BrowserRouter>
