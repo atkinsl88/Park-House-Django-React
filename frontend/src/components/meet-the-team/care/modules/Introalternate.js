@@ -13,8 +13,7 @@ const Introalternate = () => (
 
       <div className="introalternate-left">
         <div className="introalternate-left-text">
-          <h3>Mr James Ivers,</h3>
-          <h3>Residential Registered Manager & Nominated Individual</h3>
+          <h3>Mr James Ivers, Residential Registered Manager & Nominated Individual</h3>
           <p>James has been working in the care industry since 2006.  This has included domiciliary, nursing and residential care.  During this time James has gained his OCR Level 2 and NVQ 3 in Health and Social Care, and has most recently completed his Level 5 Diploma in Leadership and Management among a variety of other care and management related courses.</p>
           <p>James has comprehensive knowledge and experience of Elderly, Dementia, Learning Difficulties and Mental Health Care.  James’ previous leadership roles have included, Care Manager, Deputy Manager, Care Co-ordinator, Senior Care Assistant, Care Worker, Office Supervisor/ Administrator for a local domiciliary agency, Quality Assurance Administrator, Auditor, and General PA work.</p>
           <p>James oversees the day-to day operation within all aspects of the Residential Home (Park House).  James is on-call 24 hours a day in case of emergency for the Residential Home.</p>
@@ -30,8 +29,7 @@ const Introalternate = () => (
           <img src={image} alt="logo" />
         </div>
         <div className="introalternate-right-text">
-          <h3>Mrs Clare Clarke,</h3>
-          <h3>Assistant Manager </h3>
+          <h3>Mrs Clare Clarke, Assistant Manager </h3>
           <p>Clare has been working in the care industry since 1997 (beginning her career within childcare), before commencing work in adult care from 2011.  This has included domiciliary, dementia, and residential care.  During this time Clare has gained her NVQ 4 in Leadership and Management, and most recently her Level 5 Diploma in Leadership & Management among a variety of other care and management related courses.</p>
           <p>Clare has comprehensive knowledge and experience of Dementia and Learning Difficulties care.  Clare’s previous leadership roles have included Deputy Manager, Care Supervisor, and Management status’s within other industries.</p>
           <p>Clare’s role within Park House Care (UK) Ltd is to primarily co-ordinate and manage the Residential Care Services.  Clare provides administrative, organisational, and leadership skills within the Residential Care office and is responsible for quality assurance, auditing, recruitment, advertising, payroll, supervision of staff, staff rostering, staff training, risk assessing, care planning, client assessments/ reviews, and general record keeping.</p>
@@ -41,7 +39,7 @@ const Introalternate = () => (
       <div className="introalternate-left">
         <div className="introalternate-left-text">
           <h3>Senior Care Lead</h3>
-          <p>WPark House recognised some time ago that the key to providing excellent care was in the need to have a dedicated team within care planning and care co-ordination.  Therefore, we employ an individual in the role of ‘Senior Care Lead’ to assist both the management and care team in the care assessing, planning, and reviewing areas.</p>
+          <p>Park House recognised some time ago that the key to providing excellent care was in the need to have a dedicated team within care planning and care co-ordination.  Therefore, we employ an individual in the role of ‘Senior Care Lead’ to assist both the management and care team in the care assessing, planning, and reviewing areas.</p>
           <p>The Senior Care Lead assists the care staff in the operation of the day to day care giving, and also assists/ leads the senio</p>
         </div>
         <div className="introalternate-left-img">

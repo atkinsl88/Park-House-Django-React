@@ -12,8 +12,7 @@ const Introalternate = () => (
 
       <div className="introalternate-left">
         <div className="introalternate-left-text">
-          <h3>Mr James Ivers,</h3>
-          <h3>Nominated Individual</h3>
+          <h3>Mr James Ivers, Nominated Individual</h3>
           <p>James has been working in the care industry since 2006.  This has included domiciliary, nursing and residential care.  During this time James has gained his Level 5 Diploma in Leadership and Management, in addition to his NVQ 2 and 3 in Health and Social Care among other care/ management related courses.  James has comprehensive knowledge and experience of Dementia, Learning Difficulties and Mental Health Care.  James’ previous leadership roles have included Registered Manager, Care Manager, Deputy Manager, Care Co-ordinator, Senior Care Assistant, Office Supervisor for a local domiciliary agency, Quality Assurance Administrator, Auditing Assistant, and General PA work.</p>
           <p>James’s role is to primarily manage the day-to day operation of the Residential Home (Park House) in the capacity of Registered Manager/ Nominated Individual.  James is also Nominated Individual for the Home Care Services provided and is primarily in situ to provide support to the management/ office team and to ensure the Home Care Services are being operated as per company policy.  In addition to this James was primarily responsible for launching the Home Care Services for Park House in 2013 before being promoted to Registered Manager/ Nominated Individual.</p>
         </div>
@@ -27,8 +26,7 @@ const Introalternate = () => (
           <img src={image} alt="logo" />
         </div>
         <div className="introalternate-right-text">
-          <h3>Mrs Rachel Gray,</h3>
-          <h3>Domiciliary Registered Manager</h3>
+          <h3>Mrs Rachel Gray, Domiciliary Registered Manager</h3>
           <p>Rachel has been working in the care industry since 2003.  This has included domiciliary, and residential care.  During this time Rachel has gained her Level 5 Leadership and Management Diploma and her level 2 and 3 in Health & Social Care, among other care/ management related courses. Rachel has comprehensive knowledge and experience of Elderly Care and Dementia. Most recently Rachel held the position of Registered Manager for a privately owned residential home.</p>
           <p>Rachel’s role is to be responsible for maintaining the Domiciliary Care Services in line with Park House Care (UK) Ltd policy and procedure, Care Quality Commission Compliance, Local Authority Guidelines, and any other relevant bodies as applicable.  Rachel’s primary role is to oversee and manage all aspects of service provision.  In addition to organising and managing the team (where applicable) of Care Co-ordinators, Office Staff, Care Field Supervisors, and Care Workers ensuring high quality of services and continuity of care is delivered.</p>
         </div>
