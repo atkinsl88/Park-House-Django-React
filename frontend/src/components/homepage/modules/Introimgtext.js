@@ -9,7 +9,7 @@ const Introimgtext = () => (
         <h2>Park House Home Care Services</h2>
         <p>Is our small care service providing care and support to those living within the community, and is operated from the Residential Care Home.  Park House Home Care provides a service which is truly tailored to the individual needs of their Client.  Domiciliary Care and Live in Care are the two primary services offered to people within their own homes.  We additionally can offer individuals night care, sitting services, respite care, and care for individuals wishing to go on holiday.</p>
       </div>
-      <div className="intro-img-text-indv">
+      {/* <div className="intro-img-text-indv">
         <div className="intro-img-text-img">
           <img src={image} alt="logo" />
         </div>
@@ -18,7 +18,7 @@ const Introimgtext = () => (
           <p>We also provide a domiciliary care (Home Care Service) locally in order to provide service users with a choice of their preferred place of care.  We aim to keep the service local, so that we can respond appropriately and accordingly to our service user’s needs.</p>
           <a href="/domiciliarycare"><button type="button">Domiciliary Care</button></a>
         </div>
-      </div>
+      </div> */}
       <div className="intro-img-text-indv">
         <div className="intro-img-text-img">
           <img src={image} alt="logo" />

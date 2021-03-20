@@ -11,7 +11,7 @@ import Assessmentprocess from './components/carehome/subpages/assessment-process
 import Accomodationfees from './components/carehome/subpages/accomodation-fees/Accomodationfees'
 import Admissions from './components/carehome/subpages/admissions/Admissions'
 import Carereviewing from './components/carehome/subpages/care-reviewing/Carereviewing'
-import Domiciliarycare from './components/domiciliarycare/Domiciliarycare'
+// import Domiciliarycare from './components/domiciliarycare/Domiciliarycare'
 import Assessingneed from './components/domiciliarycare/subpages/assessing-the-need/Assessingneed'
 import Clientcare from './components/domiciliarycare/subpages/client-care-plan/Clientcare'
 import Reassesingtheneed from './components/domiciliarycare/subpages/reassessing-the-need/Reassessingneed'
@@ -44,7 +44,7 @@ const App = () => {
         <Route exact path="/carehome/accomodation-fees" component={Accomodationfees} />
         <Route exact path="/carehome/admissions" component={Admissions} />
         <Route exact path="/carehome/care-reviewing" component={Carereviewing} />
-        <Route exact path="/domiciliarycare" component={Domiciliarycare} />
+        {/* <Route exact path="/domiciliarycare" component={Domiciliarycare} /> */}
         <Route exact path="/domiciliarycare/assessing-the-need" component={Assessingneed} />
         <Route exact path="/domiciliarycare/client-care-plan" component={Clientcare} />
         <Route exact path="/domiciliarycare/reassessing-the-need" component={Reassesingtheneed} />
