@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => (
   <section>
 
-    <div className="hero-home-container">
+    <div className="hero-day-container">
       <div className="hero-home-text">
         <h1>Day Care</h1>
       </div>
