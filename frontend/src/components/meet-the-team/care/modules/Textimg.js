@@ -13,9 +13,6 @@ const Textimg = () => (
         <p>Steve’s career background is within structural steel, and when purchasing Park House, he resigned from his job to concentrate on the extension of Park House and the general business expansion.</p>
         <p>Karen and Steve remain in daily contact with the management and staff of Park House, and visit the home regularly.</p>
       </div>
-      <div className="text-img-img">
-        <img src={image} alt="logo" />
-      </div>
     </div>
 
   </section>

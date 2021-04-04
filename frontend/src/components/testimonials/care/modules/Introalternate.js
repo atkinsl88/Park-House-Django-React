@@ -1,15 +1,17 @@
 import React from 'react'
-import image from '../../../../assets/image.png'
+import image1 from '../../../../assets/testimonial-img-1.png'
+import image2 from '../../../../assets/testimonial-img-2.png'
+import image3 from '../../../../assets/testimonial-img-3.png'
 
 const Introalternate = () => (
   <section>
 
-    <div className="introalternate-container">
+    <div className="intro12col">
+      <h2>Care Home Testimonials</h2>
+      <p>At Park House we truly love to hear our residents and their representatives’ feedback on the service we provide.  Below are some of the recent testimonials that we would like to share with you.</p>
+    </div>
 
-      <div className="introalternate-intro">
-        <h2>Care Home Testimonials</h2>
-        <p>At Park House we truly love to hear our residents and their representatives’ feedback on the service we provide.  Below are some of the recent testimonials that we would like to share with you.</p>
-      </div>
+    <div className="introalternate-container">
 
       <div className="introalternate-left">
         <div className="introalternate-left-text">
@@ -17,7 +19,7 @@ const Introalternate = () => (
           <p><strong>Jackie M (Daughter of Past Resident) <br /> Supplied: July 2020</strong></p>
         </div>
         <div className="introalternate-left-img">
-          <img src={image} alt="logo" />
+          <img src={image1} alt="logo" />
         </div>
       </div>
 
@@ -33,11 +35,10 @@ const Introalternate = () => (
       <div className="introalternate-left">
         <div className="introalternate-left-text">
           <p><i>“When Mum was widowed in 2016, she needed support to live at home and Park House Domiciliary Care provided a great level of care and support.  We also arranged for Mum to go to Park House for lunch occasionally as we knew living at home was short term as her Dementia progressed. When crisis hit, we were lucky that there was a room available at Park House and that the staff already knew Mum so transition was easier. In the home, all the staff are so kind and really get to know their residents, offering suitable activities and spending time with each person as well as meeting the care needs to a high standard. I was always welcomed when visiting and kept well informed of any concerns and changes. It was great to know when the review dates were planned so that I could attend if I wished.</i></p>
-          <p><i>Mum had a happy few years at Park House with a team of staff who were consistent, cheerful and kind creating a great atmosphere even when she could be a little challenging!  When Mum deteriorated and it was clear that it she had reached the end of life, the compassion from the whole team was amazing and she was able to slip away peacefully in her own room with us by her side and the love for her was clear.  I would recommend Park House as a lovely home for you, your friend or relative.”</i></p>
           <p><strong>Carolyn F (Daughter of Past Resident) <br /> Supplied: July 2020</strong></p>
         </div>
         <div className="introalternate-left-img">
-          <img src={image} alt="logo" />
+          <img src={image2} alt="logo" />
         </div>
       </div>
 
@@ -55,7 +56,7 @@ const Introalternate = () => (
           <p><strong>Jac W (Daughter of Past Resident) <br /> Supplied: July 2020</strong></p>
         </div>
         <div className="introalternate-left-img">
-          <img src={image} alt="logo" />
+          <img src={image3} alt="logo" />
         </div>
       </div>
 

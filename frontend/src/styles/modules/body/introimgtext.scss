@@ -5,14 +5,12 @@
   justify-content: flex-end;
   align-items: flex-start;
   flex-wrap: wrap;
-  border: #E0E0E0 1px solid;
-  background-color: #FFFFFF;
 }
 
 .intro-img-text-intro {
   padding-top: 40px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 100px;
+  padding-left: 100px;
   padding-bottom: 20px;
 }
 
@@ -24,21 +22,20 @@
 .intro-img-text-img {
   padding-top: 10px;
   padding-right: 20px;
-  padding-left: 40px;
   padding-bottom: 40px;
 }
 
 .intro-img-text-img img {
-  width: 460px;
+  width: 600px;
+  height: 450px;
 }
 
 .intro-img-text-text {
   display: flex;
   flex-direction: column;
   flex: 1 1 400px;
-  padding-top: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 100px;
+  padding-left: 50px;
   padding-bottom: 20px;
 }
 

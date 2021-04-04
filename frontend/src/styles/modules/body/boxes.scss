@@ -1,27 +1,23 @@
 .box-container {
-  border: #E0E0E0 1px solid;
   padding-top: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
   padding-bottom: 20px;
 }
 
 .boxes {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
 .boxi {
-  width: 580px;
+  width: 480px;
   background-color: #FBFBFB;
   border: #E0E0E0 1px solid;
   text-align: center;
   padding: 40px;
   box-shadow: 2px 2px #888888;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 20px;
 }
 
 /* Tablet */
