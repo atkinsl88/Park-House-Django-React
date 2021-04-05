@@ -161,7 +161,7 @@ class Form extends React.Component {
                     />
                       Day Care
                   </label>
-                  <label className="radio">
+                  {/* <label className="radio">
                     <input
                       type="radio"
                       name="intrested_in"
@@ -171,7 +171,7 @@ class Form extends React.Component {
                       value="domiciliarycare"
                     />
                       Domiciliary Care
-                  </label>
+                  </label> */}
                   <label className="radio">
                     <input
                       type="radio"
