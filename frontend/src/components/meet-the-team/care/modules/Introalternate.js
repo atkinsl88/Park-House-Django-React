@@ -22,11 +22,11 @@ const Introalternate = () => (
         <div className="introalternate-left-img">
           <img src={image1} alt="logo" />
         </div>
-        <div className="text-img-text">
+      </div>
+      <div className="text-img-text">
           <p>Clare has comprehensive knowledge and experience of Dementia and Learning Difficulties care.  Clare’s previous leadership roles have included Deputy Manager, Care Supervisor, and Management status’s within other industries.</p>
           <p>Clare’s role within Park House Care (UK) Ltd is to primarily co-ordinate and manage the Residential Care Services.  Clare provides administrative, organisational, and leadership skills within the Residential Care office and is responsible for quality assurance, auditing, recruitment, advertising, payroll, supervision of staff, staff rostering, staff training, risk assessing, care planning, client assessments/ reviews, and general record keeping.</p>
         </div>
-      </div>
 
       <div className="introalternate-right">
         <div className="introalternate-right-img">
@@ -58,7 +58,9 @@ const Introalternate = () => (
           <h3>The Care Team</h3>
           <p>We recognise that for most our residents the most important people in our organisation are the Care Workers with whom they will have regular contact.  We take great care in recruiting, training and supervising our staff.</p>
         </div>
-        <div className="text-img-text">
+      </div>
+
+      <div className="text-img-text">
         <p>Our staff have a wide range of qualifications which reflect the requirements within the Health and Social Care Act 2008.  These include National Vocational Qualifications/ Diploma level 2, 3, 4 and 5 in care or health and social care.  In addition, management qualifications and relevant administration skills also form part of the Diploma qualification.</p>
           <p>Our Health Care Assistants will usually be dressed in a peacock (bright blue) colour tunic with ID badges, to help you identify who they are.</p>
           <h3>Support Staff</h3>
@@ -66,7 +68,6 @@ const Introalternate = () => (
           <h4>Staff Recruitment</h4>
           <p>Park House operates a robust recruitment procedure which includes all employees’ being criminal record (DBS) checked, a minimum of three references being obtained, and the completion of twenty-one courses before commencement of employment.  A more practical induction is then provided upon the employee’s first day with Park House, which can last anywhere up until three months dependent on their experience and skills.</p>
         </div>
-      </div>
       
     </div>
 

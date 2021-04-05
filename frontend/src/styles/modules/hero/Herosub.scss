@@ -11,3 +11,11 @@
   margin-left: 100px;
   align-items: center;
 }
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .hero-sub-text {
+    margin-left: 40px;
+  }
+}

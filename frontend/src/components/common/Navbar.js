@@ -68,7 +68,7 @@ class Navbar extends React.Component {
 
               <Link to="/meet-the-team/carehome" className="navbar-item">Meet the Team</Link>
 
-              <Link to="/gallery" className="navbar-item">Gallery</Link>
+              {/* <Link to="/gallery" className="navbar-item">Gallery</Link> */}
 
               <Link to="/testimonials/carehome" className="navbar-item">Testimonials</Link>
 

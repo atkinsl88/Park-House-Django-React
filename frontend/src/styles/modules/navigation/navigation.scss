@@ -42,9 +42,14 @@ a.navbar-item:hover {
 @media only screen and (max-width: 1024px) {
   .navbar-burger {
     margin-top: 35px;
+    margin-right: 40px;
   }
   .navbar-menu {
     margin-top: 14px;
+    margin-right: 40px;
+  }
+  .navbar img {
+    margin-left: 40px
   }
 }
 

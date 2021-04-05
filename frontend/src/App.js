@@ -25,7 +25,7 @@ import Quality from './components/quality-assurance/Quality'
 import Working from './components/working-for-us/Working'
 import Privacy from './components/privacy/Privacy'
 import Covid from './components/covid/Covid'
-import Gallery from './components/gallery/Gallery'
+// import Gallery from './components/gallery/Gallery'
 import Form from './components/form/Form'
 import Downloads from './components/downloads/Downloads'
 import Thankyou from './components/thankyou/Thankyou'
@@ -53,7 +53,7 @@ const App = () => {
         <Route exact path="/meet-the-team/domiciliarycare" component={Teamdomiciliarycare} />
         <Route exact path="/testimonials/carehome" component={Testcarehome} />
         <Route exact path="/testimonials/domicilary" component={Testdomiciliarycare} />
-        <Route exact path="/gallery" component={Gallery} />
+        {/* <Route exact path="/gallery" component={Gallery} /> */}
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/quality-assurance" component={Quality} />
         <Route exact path="/working-for-us" component={Working} />

@@ -65,12 +65,21 @@
 
 @media only screen and (max-width: 1024px) {
   .hero-home-container {
-    height: 200px;
+    min-height: 200px;
   }
   .hero-care-container {
-    height: 200px;
+    max-height: 200px;
   }
   .hero-day-container {
-    height: 200px;
+    max-height: 200px;
+  }
+  .hero-meet-container {
+    max-height: 200px;
+  }
+  .hero-test-container {
+    max-height: 200px;
+  }
+  .hero-home-text {
+    margin-left: 40px;
   }
 }
