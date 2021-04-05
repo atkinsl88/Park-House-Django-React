@@ -61,14 +61,11 @@ const Introalternate = () => (
         <div className="text-img-text">
         <p>Our staff have a wide range of qualifications which reflect the requirements within the Health and Social Care Act 2008.  These include National Vocational Qualifications/ Diploma level 2, 3, 4 and 5 in care or health and social care.  In addition, management qualifications and relevant administration skills also form part of the Diploma qualification.</p>
           <p>Our Health Care Assistants will usually be dressed in a peacock (bright blue) colour tunic with ID badges, to help you identify who they are.</p>
-        </div>
-      </div>
-
-      <div className="text-img-text">
-      <h3>Support Staff</h3>
+          <h3>Support Staff</h3>
           <p>We have a range of support staff at Park House covering housekeeping, activities, and catering. This includes a Senior Activities Co-ordinator whose role is to oversee and plan social activities within Park House, and a Catering Manager who is responsible for the day to day management of the kitchen.</p>
           <h4>Staff Recruitment</h4>
           <p>Park House operates a robust recruitment procedure which includes all employees’ being criminal record (DBS) checked, a minimum of three references being obtained, and the completion of twenty-one courses before commencement of employment.  A more practical induction is then provided upon the employee’s first day with Park House, which can last anywhere up until three months dependent on their experience and skills.</p>
+        </div>
       </div>
       
     </div>
