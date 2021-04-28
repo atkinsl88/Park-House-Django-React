@@ -2,9 +2,9 @@
 
 .hero-home-container {
   display: flex;
-  min-height: 410px;
+  height: 540px;
   width: 100%;
-  background-image: url(http://pensacola.co.uk/images/hp-hero-1.png);
+  background-image: url(http://pensacola.co.uk/images/hp-hero-2b.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -20,9 +20,9 @@
 
 .hero-care-container {
   display: flex;
-  height: 410px;
+  height: 540px;
   width: 100%;
-  background-image: url(http://pensacola.co.uk/images/carhome-hero-1.png);
+  background-image: url(http://pensacola.co.uk/images/carhome-hero-2.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -31,9 +31,9 @@
 
 .hero-day-container {
   display: flex;
-  height: 410px;
+  height: 540px;
   width: 100%;
-  background-image: url(http://pensacola.co.uk/images/daycare-hero-1.png);
+  background-image: url(http://pensacola.co.uk/images/daycare-hero-2.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -42,7 +42,7 @@
 
 .hero-meet-container {
   display: flex;
-  height: 410px;
+  height: 540px;
   width: 100%;
   background-image: url(http://pensacola.co.uk/images/meet-the-team-hero-1.png);
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 1024px) {
   .hero-home-container {
-    min-height: 200px;
+    max-height: 200px;
   }
   .hero-care-container {
     max-height: 200px;

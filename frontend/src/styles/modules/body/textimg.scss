@@ -2,23 +2,23 @@
 
 .text-img-container {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
+  padding-top: 80px;
 }
 
 .text-img-container-2 {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .text-img-text-intro {
   display: flex;
   flex-direction: column;
   flex: 1 1 300px;
-  padding-top: 40px;
   padding-right: 100px;
   padding-left: 100px;
 }
@@ -27,27 +27,21 @@
   display: flex;
   flex-direction: column;
   flex: 1 1 300px;
-  padding-top: 40px;
   padding-right: 100px;
   padding-left: 100px;
-  padding-bottom: 40px;
 }
 
 .text-img-text2 {
   display: flex;
   flex-direction: column;
   flex: 1 1 300px;
-  padding-top: 40px;
   padding-right: 100px;
   padding-left: 100px;
-  padding-bottom: 0px;
 }
 
 .text-img-img {
   display: flex;
   justify-content: flex-start;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .text-img-img img {

@@ -1,41 +1,26 @@
 .widget-container {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   background-color: #FFFFFF;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-left: 100px;
-}
-
-.widget-container-2 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  border: #E0E0E0 1px solid;
-  background-color: #FBFBFB;
 }
 
 .widget-text {
   display: flex;
   flex-direction: column;
   flex: 1 1 300px;
-  padding-top: 40px;
   padding-right: 100px;
-  padding-left: 40px;
-  padding-bottom: 20px;
+  padding-left: 100px;
 }
 
 .widget {
   display: flex;
   border: #E0E0E0 1px solid;
   height: 375px;
-  width: 460px;
-  padding-top: 40px;
-  padding-left: 40px;
+  width: 500px;
 }
 
 /* Tablet */
