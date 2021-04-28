@@ -27,10 +27,14 @@
 
 @media only screen and (max-width: 1260px) {
   .widget-text {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .widget-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-right: 40px;
     padding-left: 40px;
   }

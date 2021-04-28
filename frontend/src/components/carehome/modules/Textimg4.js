@@ -8,7 +8,7 @@ const Textimg2 = () => (
       <div className="text-img-img">
         <img src={image} alt="logo" />
       </div>
-      <div className="text-img-text-intro">
+      <div className="text-img-text">
         <h3>Hairdressing/ Chiropody</h3>
         <p>Park House offers all residents use of the on-site hairdressing facilities and the chiropody service. Both services are chargeable, in addition to your accommodation.</p>
         <p>Our fully trained and experienced hairdresser visits Park House weekly, and as required to attend to your hairdressing needs. We have a Chiropodist who visits the home every four to six weeks, or as required.</p>
