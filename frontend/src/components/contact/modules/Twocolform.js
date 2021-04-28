@@ -185,7 +185,7 @@ class Twocolform extends React.Component {
           </div>
         </div>
 
-        <div className="text-img-text">
+        <div className="text-img-text2">
             <p>When calling us via telephone, you can select the following options to get through to who you need quickly. Please can we add to the contact us page that all telephone calls are recorded for training and monitoring purposes.</p>
             <p>Option 1: To speak to a member of the Senior Care Team or to a Resident,<br />Option 2: To speak to a member of the community home care services,<br />Option 3: To speak to James Ivers and to enquirer in to residential vacancies ,<br />Option 4: To speak to Clare Clarke, Option 5: Sales and Marketing Calls.</p>
             <h3>Out of Hours (On-Call)</h3>
