@@ -1,5 +1,5 @@
 .intro12col {
-  padding-top: 40px;
+  padding-top: 80px;
   padding-right: 100px;
   padding-left: 100px;
   padding-bottom: 20px;
@@ -33,6 +33,7 @@
 
 @media only screen and (max-width: 1024px) {
   .intro12col {
+    padding-top: 40px;
     padding-right: 40px;
     padding-left: 40px;
   }

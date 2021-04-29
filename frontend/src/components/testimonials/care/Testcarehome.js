@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from 'react-helmet'
 
 import Hero from './modules/Hero'
 import Textimg from './modules/Textimg'
@@ -12,6 +13,11 @@ import Introalternate from './modules/Introalternate'
 const Teamcarehome = () => (
 
   <section>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Park House Care | Testimonials</title>
+      <meta name="description" content="At Park House we truly love to hear our residents and their representatives’ feedback on the service we provide. Below are some of the recent testimonials that we would like to share with you." />
+    </Helmet>
     <Hero />
     <Textimg />
     <Textimg2 />
