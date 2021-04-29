@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../../../src/assets/hp-img-1.png'
+import image from '../../../../src/assets/hp-img-3.png'
 
 const Textimg = () => (
   <section>

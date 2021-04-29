@@ -18,9 +18,13 @@
 
 .widget {
   display: flex;
-  border: #E0E0E0 1px solid;
-  height: 375px;
-  width: 500px;
+  height: 310px;
+  width: 495px;
+}
+
+.widget img {
+  height: 100%;
+  width: 100%;
 }
 
 /* Tablet */
