@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.155467c7.chunk.css",
-    "main.js": "/static/js/main.f4f5bb7b.chunk.js",
-    "main.js.map": "/static/js/main.f4f5bb7b.chunk.js.map",
+    "main.css": "/static/css/main.7f3d7b15.chunk.css",
+    "main.js": "/static/js/main.3f450431.chunk.js",
+    "main.js.map": "/static/js/main.3f450431.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
-    "static/js/2.4940e05f.chunk.js": "/static/js/2.4940e05f.chunk.js",
-    "static/js/2.4940e05f.chunk.js.map": "/static/js/2.4940e05f.chunk.js.map",
+    "static/js/2.43ab15cd.chunk.js": "/static/js/2.43ab15cd.chunk.js",
+    "static/js/2.43ab15cd.chunk.js.map": "/static/js/2.43ab15cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1d719da52319cc7da00221dde1c46a53.js": "/precache-manifest.1d719da52319cc7da00221dde1c46a53.js",
+    "precache-manifest.169bc71d1f6ca1ca66b41009b2c7657f.js": "/precache-manifest.169bc71d1f6ca1ca66b41009b2c7657f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.155467c7.chunk.css.map": "/static/css/main.155467c7.chunk.css.map",
-    "static/js/2.4940e05f.chunk.js.LICENSE.txt": "/static/js/2.4940e05f.chunk.js.LICENSE.txt",
+    "static/css/main.7f3d7b15.chunk.css.map": "/static/css/main.7f3d7b15.chunk.css.map",
+    "static/js/2.43ab15cd.chunk.js.LICENSE.txt": "/static/js/2.43ab15cd.chunk.js.LICENSE.txt",
     "static/media/CareHomeQualityAssuranceReport2018.pdf": "/static/media/CareHomeQualityAssuranceReport2018.3dd88944.pdf",
     "static/media/CareHomeQualityAssuranceReport2019.pdf": "/static/media/CareHomeQualityAssuranceReport2019.4a05644a.pdf",
     "static/media/CoronavirusEnglandMay2020.pdf": "/static/media/CoronavirusEnglandMay2020.ffd4cc0a.pdf",
@@ -28,8 +28,10 @@
     "static/media/carehome-img-6.png": "/static/media/carehome-img-6.f2596f06.png",
     "static/media/carehome-img-7.png": "/static/media/carehome-img-7.3b14fffa.png",
     "static/media/carehome-img-8.png": "/static/media/carehome-img-8.9df30038.png",
+    "static/media/cqc.jpg": "/static/media/cqc.1c3a24b3.jpg",
     "static/media/daycare-img-2.png": "/static/media/daycare-img-2.5235c9f0.png",
     "static/media/hp-img-1.png": "/static/media/hp-img-1.30bd576d.png",
+    "static/media/hp-img-3.png": "/static/media/hp-img-3.7c296030.png",
     "static/media/image.png": "/static/media/image.c4651ddf.png",
     "static/media/logo.png": "/static/media/logo.2d2af87e.png",
     "static/media/meet-the-team-care-team.png": "/static/media/meet-the-team-care-team.1dd10199.png",
@@ -43,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c8a21426.js",
-    "static/js/2.4940e05f.chunk.js",
-    "static/css/main.155467c7.chunk.css",
-    "static/js/main.f4f5bb7b.chunk.js"
+    "static/js/2.43ab15cd.chunk.js",
+    "static/css/main.7f3d7b15.chunk.css",
+    "static/js/main.3f450431.chunk.js"
   ]
 }
