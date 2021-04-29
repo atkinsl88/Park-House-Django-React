@@ -1,16 +1,16 @@
 import React from 'react'
-import {Helmet} from 'react-helmet'
+import Widget from '../../widget/Widget'
 
-const Textimg2 = () => (
+const Textimg2 = (props) => {
+  const { widget } = props
+
+  return (
+
   <section>
 
     <div className="widget-container">
     
-    <div className="widget">
-      <Helmet>
-      <script type="text/javascript" async="true" src="//www.cqc.org.uk/sites/all/modules/custom/cqc_widget/widget.js?data-id=1-136474516&data-host=www.cqc.org.uk&type=location"></script>
-      </Helmet>
-    </div>
+    <Widget history = { widget } />
 
     <div className="widget-text">
       <h2>Registration Information</h2>
@@ -20,6 +20,7 @@ const Textimg2 = () => (
     </div>
 
   </section>
-)
+  )
+}
 
 export default Textimg2

@@ -29,6 +29,7 @@ import Covid from './components/covid/Covid'
 import Form from './components/form/Form'
 import Downloads from './components/downloads/Downloads'
 import Thankyou from './components/thankyou/Thankyou'
+import Widget from './components/widget/Widget'
 
 const App = () => {
   
@@ -62,6 +63,7 @@ const App = () => {
         <Route exact path="/form" component={Form} />
         <Route exact path="/downloads" component={Downloads} />
         <Route exact path="/thankyou" component={Thankyou} />
+        <Route exact path="/widget" component={Widget} />
       </Switch>
       <Footer />
     </BrowserRouter>
