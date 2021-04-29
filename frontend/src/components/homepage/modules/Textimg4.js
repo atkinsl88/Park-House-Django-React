@@ -8,14 +8,10 @@ const Textimg2 = (props) => {
 
   <section>
 
-    <Widget history = { widget } />
-
     <div className="widget-container">
-    
-    <div className="widget">
-      <Widget history = { widget } />
-    </div>
-
+      <div className="widget">
+        <Widget history = { widget } />
+      </div>
     <div className="widget-text">
       <h2>Registration Information</h2>
         <p>Park House is registered with the Care Quality Commission (CQC) who are the regulatory body within all Health and Social Care settings. Our most recent inspection report is available to view upon request, is also displayed within the entrance hall to the home, and can be found at the bottom of this page. Previous reports can be viewed upon request and on the Care Quality Commission website.</p>
