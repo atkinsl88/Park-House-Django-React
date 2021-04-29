@@ -1,16 +1,13 @@
 import React from 'react'
-import Widget from '../../widget/Widget'
+import image from '../../../assets/cqc.jpg'
 
-const Textimg2 = (props) => {
-  const { widget } = props
-
-  return (
+const Textimg2 = () => (
 
   <section>
 
     <div className="widget-container">
       <div className="widget">
-        <Widget history = { widget } />
+        <a href="https://www.cqc.org.uk/provider/1-101682988" target="blank"><img src={image} alt="logo" /></a>
       </div>
     <div className="widget-text">
       <h2>Registration Information</h2>
@@ -20,7 +17,7 @@ const Textimg2 = (props) => {
     </div>
 
   </section>
-  )
-}
+
+)
 
 export default Textimg2
