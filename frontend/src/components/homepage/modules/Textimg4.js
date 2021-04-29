@@ -8,9 +8,13 @@ const Textimg2 = (props) => {
 
   <section>
 
+    <Widget history = { widget } />
+
     <div className="widget-container">
     
-    <Widget history = { widget } />
+    <div className="widget">
+      <Widget history = { widget } />
+    </div>
 
     <div className="widget-text">
       <h2>Registration Information</h2>
