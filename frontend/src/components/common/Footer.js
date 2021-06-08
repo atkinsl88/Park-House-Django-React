@@ -9,7 +9,7 @@ const Footer = () => (
 
       <div className="footer-col1">
         <h4>Contact Details</h4>
-        <p><b>Park House</b> <br /> Care Home & Home Care Service Martinstown, Dorchester, Dorset DT2 9JN</p>
+        <p><b>Address</b> <br /> Park House, Dorchester, Dorset DT2 9JN</p>
         <p><b>Telephone</b> <br /> 01305 889420</p>
         <p><b>Email</b> <br /> <a href="mailto:info@parkhousecare.orgm">info@parkhousecare.org</a></p>
       </div>

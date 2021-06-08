@@ -187,13 +187,13 @@ class Twocolform extends React.Component {
 
         <div className="text-img-text2">
             <p>When calling us via telephone, you can select the following options to get through to who you need quickly. Please can we add to the contact us page that all telephone calls are recorded for training and monitoring purposes.</p>
-            <p>Option 1: To speak to a member of the Senior Care Team or to a Resident,<br />Option 2: To speak to a member of the community home care services,<br />Option 3: To speak to James Ivers and to enquirer in to residential vacancies ,<br />Option 4: To speak to Clare Clarke, Option 5: Sales and Marketing Calls.</p>
+            <p>Option 1: To speak to a member of the Senior Care Team or to a Resident<br />Option 2: To speak to the Registered Manager</p>
             <h3>Out of Hours (On-Call)</h3>
-            <p>Park House operates a full ‘Out of Hours’ (On-Call) service which is operated by the Directors, Registered Manager, and Assistant Manager.  The purpose of the service is to provide 24/7 support to staff outside of office hours with any matters that may arise.</p>
+            <p>Park House operates a full ‘Out of Hours’ (On-Call) service which is operated by the Directors, Registered Manager, and Senior Care Team.  The purpose of the service is to provide 24/7 support to staff outside of office hours with any matters that may arise.</p>
             <p>Should you need to speak to a member of the management team urgently, a senior member of staff on shift will be able to contact a member of the management team for you.</p>
             <h3>Website and E-mail</h3>
             <p>Our services can be viewed with some additional information at: www.parkhousecare.org</p>
-            <p>The Park House Care office can be contacted via e-mail if preferred at:<br />Residential Care Home: info@parkhousecare.org<br />Domiciliary Service: parkhousehomecare@ymail.com</p>
+            <p>The Park House Care office can be contacted via e-mail if preferred at:<br />Residential Care Home: info@parkhousecare.org</p>
           </div>
 
       </div>
