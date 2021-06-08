@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "004766af32ab918681ab9d709f53bd3c",
+    "revision": "e93eb2e6d068caa983e30211742aab10",
     "url": "/index.html"
   },
   {
-    "revision": "4c212577cfac413243f5",
-    "url": "/static/css/main.7f3d7b15.chunk.css"
+    "revision": "a735c26d49f8fa9d3c8a",
+    "url": "/static/css/main.eae52804.chunk.css"
   },
   {
     "revision": "d11e32c38e0d1eaad63d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9f792ecc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c212577cfac413243f5",
-    "url": "/static/js/main.4fff28df.chunk.js"
+    "revision": "a735c26d49f8fa9d3c8a",
+    "url": "/static/js/main.ad1c2b1e.chunk.js"
   },
   {
     "revision": "2747b914e9a60db2276f",
@@ -88,12 +88,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/carehome-img-8.9df30038.png"
   },
   {
+    "revision": "d5a1e8864a5084a3693be896ed60e811",
+    "url": "/static/media/clare-01.d5a1e886.jpg"
+  },
+  {
     "revision": "1c3a24b30fee765dd4d08e053798dadf",
     "url": "/static/media/cqc.1c3a24b3.jpg"
   },
   {
     "revision": "5235c9f053c4b3aea52529e44bb27354",
     "url": "/static/media/daycare-img-2.5235c9f0.png"
+  },
+  {
+    "revision": "9654e84a8cc24fca671989abfb83fdb0",
+    "url": "/static/media/dona-01.9654e84a.png"
   },
   {
     "revision": "30bd576d36aa1eddc97c98d4fd31059d",
@@ -116,18 +124,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/meet-the-team-care-team.1dd10199.png"
   },
   {
-    "revision": "d4618088df5c935fc5ac2a315f1564f1",
-    "url": "/static/media/meet-the-team-clare.d4618088.png"
-  },
-  {
-    "revision": "92fa612d5042a1a7bca3f328e846174f",
-    "url": "/static/media/meet-the-team-snr.92fa612d.png"
-  },
-  {
-    "revision": "57ecca035f8246c61566d80d4832f9c7",
-    "url": "/static/media/meet-the-team-snr2.57ecca03.png"
-  },
-  {
     "revision": "992ce0b3e06e0e2d6bd1bba937a5884c",
     "url": "/static/media/testimonial-img-1.992ce0b3.png"
   },
@@ -142,5 +138,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2eb242bb6a33607f3254113901ee611b",
     "url": "/static/media/tree-border-white.2eb242bb.png"
+  },
+  {
+    "revision": "0270d0612a769195af525e38586a4d2e",
+    "url": "/static/media/tree.0270d061.png"
   }
 ]);
